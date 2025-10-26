@@ -31,8 +31,8 @@ st.write(st.session_state.mesaj)
 
 # Yeniden başlat butonu
 if st.button("🔄 Oyunu Yeniden Başlat"):
+    st.balloons()
     st.session_state.dogru_sayi = random.randint(1, 10)
     st.session_state.hak = 3
     st.session_state.mesaj = ""
     st.rerun()
-    st.balloons()
