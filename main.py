@@ -35,4 +35,3 @@ if st.button("🔄 Oyunu Yeniden Başlat"):
     st.session_state.dogru_sayi = random.randint(1, 10)
     st.session_state.hak = 3
     st.session_state.mesaj = ""
-    st.rerun()
